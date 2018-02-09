@@ -2075,7 +2075,8 @@ if version >= 508 || !exists("did_cpp_syntax_inits")
   HiLink cppSTLbool         Boolean
   HiLink cppStorageClass    StorageClass
   HiLink cppStatement       Statement
-  HiLink cppSTLfunction     Function
+  "STL function 不显示
+  "HiLink cppSTLfunction     Function
   HiLink cppSTLfunctional   Typedef
   HiLink cppSTLconstant     Constant
   HiLink cppSTLnamespace    Constant
